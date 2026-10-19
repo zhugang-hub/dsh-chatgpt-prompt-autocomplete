@@ -1,0 +1,42 @@
+{
+  "name": "dsh-chatgpt-prompt-autocomplete",
+  "version": "1.0.0",
+  "description": "ChatGPT 最新自动推荐续写提示词功能复刻插件（支持 Tab 键采纳推荐、上下方向键切换候选词、智能上下文续写）",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "chatgpt",
+    "autocomplete",
+    "prompt-completion"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhugang-hub/dsh-chatgpt-prompt-autocomplete.git"
+  },
+  "homepage": "https://github.com/zhugang-hub/dsh-chatgpt-prompt-autocomplete#readme",
+  "bugs": {
+    "url": "https://github.com/zhugang-hub/dsh-chatgpt-prompt-autocomplete/issues"
+  },
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js"
+  }
+}

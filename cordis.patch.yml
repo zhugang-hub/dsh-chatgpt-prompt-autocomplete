@@ -1,0 +1,3 @@
+- insert:
+    - id: dsh-chatgpt-prompt-autocomplete
+      name: dsh-chatgpt-prompt-autocomplete
