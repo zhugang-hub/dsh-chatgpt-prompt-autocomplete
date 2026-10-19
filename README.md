@@ -1,5 +1,7 @@
 # dsh-chatgpt-prompt-autocomplete
 
+<img src="icon.svg" width="72" height="72" alt="输入框提示词自动补全图标" />
+
 为 **DeepSeek Harness（DSH）** 输入框提供 ChatGPT 风格的提示词自动补全：在你输入时弹出候选面板，给出 1–5 条可继续输入的提示词，**Tab** 采纳、**↑ / ↓** 切换、**Esc** 关闭。
 
 ## 功能
